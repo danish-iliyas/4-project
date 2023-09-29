@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#proj2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: lightseagreen;
+}
+#card1{
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    width: 300px;
+    position: absolute;
+}
+#card1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* position: absolute; */
+    object-position: center;   
+}
+#card1 i{
+color: white;
+font-size: 50px;
+position : relative;
+left: 40%;
+bottom: 50%; 
+opacity: 0;
+transition: ease all 0.4s;
+transform: translate(-50% , -50%) scale(0);
+}
+#icon i{
+    top: -62px;
+    color: azure;
+    opacity: 1;
+    left: 0;
+bottom: 40;
+    position: relative;
+}
+#i1{
+    height: 20px;
+    width: 20px;
+}
+
+#proj3{
+  
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: relative;
+    
+}
+#cursor{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(23, 223, 100);
+   border-radius: 50%;
+   mix-blend-mode: difference;
+   position: absolute;
+   transition: all  linear 0.2s;
+}
+#proj3 h1 {
+font-size: 6vw;
+font-weight: 800;
+color: white;
+}
+/* ========================================================/ */
+#proj4{
+  
+    height: 100%;
+    width: 100%;
+    background-color:  #111;;
+    position: relative;
+    
+}
+.element{
+    /* border-top: 2px solid aqua ; */
+    color: white;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height:80px;
+    width: 100%;
+    position: relative;
+
+   
+}
+#ww{
+    /* position: relative; */
+}
+.element h1{
+    font-size: 5vw;
+    /* position: relative; */
+    mix-blend-mode: difference;
+    z-index: 9;
+}
+.element img{
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 60%;
+    position: absolute;
+    opacity: 0;
+  overflow: hidden;
+    /* transform: translate(10% ,); */
+    transition: all linear 0.3s;
+
+}
+
+/* ====================================================pro5 */
+
+#proj5{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#instacard{
+    height: 480px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 3px solid black;
+    position: relative;
+    
+}
+#stories{
+    height: 120px;
+    width: 92%;
+   border-bottom: 1px solid rgba(205, 184, 223, 0.667);
+    padding: 15px;
+    white-space: nowrap;
+    overflow-x:auto;
+    overflow-y: hidden;
+}
+.story{
+    
+    border: 3px solid red;
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+} 
+#stories::-webkit-scrollbar{
+    display: none;
+}
+#full-screen{
+    height: 100%;
+    width: 100%;
+   background-size: cover;
+   background-position: center;
+    position: absolute;
+    display: none;
+}
